@@ -11,8 +11,8 @@ namespace ProXamTabTest
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
-		}
+            MainPage = new NavigationPage(new ProXamTabsTest.TabsPage());
+        }
 
 		protected override void OnStart ()
 		{
